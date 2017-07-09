@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.todomanager.ReminderActivity">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:src="@drawable/bell" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="SET YOUR REMINDER"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/colorAccent"/>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:id="@+id/TimeRem"
+        android:hint="Time"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:layout_margin="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/DateRem"
+        android:hint="Date"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/RemSub"
+        android:layout_weight="1"
+        android:layout_marginLeft="130dp"
+        android:text="Set Alarm"/>
+   </LinearLayout>
